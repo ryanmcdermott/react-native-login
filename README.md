@@ -24,8 +24,8 @@ Ensure that you have installed **absolutely everything** listed [here](https://f
 4. `cd ../server`
 5. `npm install`
 6. `node server.js`
-7. `open ../ReactNativeLogin/iOS/ReactNativeLogin.xcodeproj
-8. Click the play icon in Xcode to start the app
+7. `open ../ReactNativeLogin/iOS/ReactNativeLogin.xcodeproj`
+8. In another terminal window, click the play icon in Xcode to start the app
 
 
 ## Contributing
