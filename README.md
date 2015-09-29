@@ -12,6 +12,8 @@ Furthermore, upon opening the app after closing it, the user will stay signed in
 ## What else?
 An example server, using Express and Passport is included within this project under the `./server` folder. You can use any server though, just be sure to change `cookie.remember_me` to whatever the name for your persistent cookie is, within the `./ReactNativeLogin/App/components/App.js` file. Follow the installation instructions to learn more.
 
+**iOS only for now, because of dependency on ** `react-native-cookies`
+
 
 ## Requirements
 Ensure that you have installed **absolutely everything** listed [here](https://facebook.github.io/react-native/docs/getting-started.html#content)
