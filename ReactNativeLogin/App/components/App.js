@@ -42,7 +42,8 @@ export default class ReactNativeLogin extends Component {
   }
 
   onNavigationStateChange (navState) {
-    // If we get redirected back to the HOME_URL we know that we 
+    // If we get redirected back to the HOME_URL we know that we are logged in. If your backend does something different than this
+    // change this line.
     if (navState.url == HOME_URL) {
       this.setState({
         loggedIn: true,
