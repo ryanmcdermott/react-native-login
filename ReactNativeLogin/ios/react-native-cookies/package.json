@@ -1,0 +1,48 @@
+{
+  "name": "react-native-cookies",
+  "version": "0.0.5",
+  "description": "Cookie manager for react native",
+  "keywords": [
+    "react",
+    "react native",
+    "react-component",
+    "cookies",
+    "webview",
+    "react-native"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "@joeferraro"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "invariant": "^2.1.0"
+  },
+  "gitHead": "5d81672f9c6064117a4c80aed1f7bea2a3095443",
+  "_id": "react-native-cookies@0.0.5",
+  "scripts": {},
+  "_shasum": "b9cb7b29832db933f4176ebe2a67a38ca7fe0b07",
+  "_from": "react-native-cookies@0.0.5",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "name": "joeferraro",
+    "email": "ferraro.joseph@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "joeferraro",
+      "email": "ferraro.joseph@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b9cb7b29832db933f4176ebe2a67a38ca7fe0b07",
+    "tarball": "http://registry.npmjs.org/react-native-cookies/-/react-native-cookies-0.0.5.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-cookies-0.0.5.tgz_1455895846980_0.8004337477032095"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-native-cookies/-/react-native-cookies-0.0.5.tgz"
+}

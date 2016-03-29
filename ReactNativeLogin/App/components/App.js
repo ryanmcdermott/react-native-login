@@ -4,6 +4,7 @@ import React, {StyleSheet, View, WebView, Component} from 'react-native';
 import CookieManager from 'react-native-cookies';
 import LoggedIn from './LoggedIn'
 
+// Change these to reflect
 const LOGIN_URL = "http://localhost:3000/login/";
 const HOME_URL = "http://localhost:3000/";
 
@@ -24,10 +25,10 @@ export default class ReactNativeLogin extends Component {
   }
 
   componentWillMount () {
-    CookieManager.getAll((cookie) => {
+    CookieManager.get(HOME_URL, (cookie) => {
       let isAuthenticated;
       // If it differs, change `cookie.remember_me` to whatever the name for your persistent cookie is!!!
-      if (cookie && cookie.remember_me) {
+      if (cookie && cookie.indexOf('remember_me') != -1) {
         isAuthenticated = true;
       }
       else {
@@ -66,8 +67,8 @@ export default class ReactNativeLogin extends Component {
               ref={'webview'}
               automaticallyAdjustContentInsets={false}
               style={styles.webView}
-              url={LOGIN_URL}
-              javaScriptEnabledAndroid={true}
+              source={{uri: LOGIN_URL}}
+              javaScriptEnabled={true}
               onNavigationStateChange={this.onNavigationStateChange.bind(this)}
               startInLoadingState={true}
               scalesPageToFit={true}
@@ -83,4 +84,3 @@ export default class ReactNativeLogin extends Component {
     }
   }
 }
-

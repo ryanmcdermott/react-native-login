@@ -7,22 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* ReactNativeLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeLoginTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		A0AE4BBC1B90112D00F8106F /* RNCookieManagerIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AE4BBB1B90112D00F8106F /* RNCookieManagerIOS.m */; };
+		A085BE931CAA2A3300F0E672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A085BE8D1CAA2A3300F0E672 /* AppDelegate.m */; };
+		A085BE941CAA2A3300F0E672 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A085BE8E1CAA2A3300F0E672 /* LaunchScreen.xib */; };
+		A085BE951CAA2A3300F0E672 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A085BE901CAA2A3300F0E672 /* Images.xcassets */; };
+		A085BE961CAA2A3300F0E672 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A085BE911CAA2A3300F0E672 /* Info.plist */; };
+		A085BE971CAA2A3300F0E672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A085BE921CAA2A3300F0E672 /* main.m */; };
+		A085BEC21CAA2A5400F0E672 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = A085BE9A1CAA2A5300F0E672 /* build.gradle */; };
+		A085BEC31CAA2A5400F0E672 /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = A085BE9D1CAA2A5300F0E672 /* AndroidManifest.xml */; };
+		A085BEC41CAA2A5400F0E672 /* CookieManagerModule.java in Sources */ = {isa = PBXBuildFile; fileRef = A085BEA21CAA2A5300F0E672 /* CookieManagerModule.java */; };
+		A085BEC51CAA2A5400F0E672 /* CookieManagerPackage.java in Sources */ = {isa = PBXBuildFile; fileRef = A085BEA31CAA2A5300F0E672 /* CookieManagerPackage.java */; };
+		A085BEC61CAA2A5400F0E672 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEA41CAA2A5300F0E672 /* index.js */; };
+		A085BEC71CAA2A5400F0E672 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEA51CAA2A5300F0E672 /* LICENSE.md */; };
+		A085BEC81CAA2A5400F0E672 /* browser.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEA81CAA2A5300F0E672 /* browser.js */; };
+		A085BEC91CAA2A5400F0E672 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEA91CAA2A5300F0E672 /* CHANGELOG.md */; };
+		A085BECA1CAA2A5400F0E672 /* invariant.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEAA1CAA2A5300F0E672 /* invariant.js */; };
+		A085BECB1CAA2A5400F0E672 /* .npmignore in Resources */ = {isa = PBXBuildFile; fileRef = A085BEAD1CAA2A5300F0E672 /* .npmignore */; };
+		A085BECC1CAA2A5400F0E672 /* custom.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEAE1CAA2A5300F0E672 /* custom.js */; };
+		A085BECD1CAA2A5400F0E672 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEAF1CAA2A5400F0E672 /* index.js */; };
+		A085BECE1CAA2A5400F0E672 /* loose-envify.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEB01CAA2A5400F0E672 /* loose-envify.js */; };
+		A085BECF1CAA2A5400F0E672 /* changelog.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEB31CAA2A5400F0E672 /* changelog.md */; };
+		A085BED01CAA2A5400F0E672 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEB41CAA2A5400F0E672 /* index.js */; };
+		A085BED11CAA2A5400F0E672 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A085BEB51CAA2A5400F0E672 /* LICENSE */; };
+		A085BED21CAA2A5400F0E672 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A085BEB61CAA2A5400F0E672 /* package.json */; };
+		A085BED31CAA2A5400F0E672 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEB71CAA2A5400F0E672 /* readme.md */; };
+		A085BED41CAA2A5400F0E672 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A085BEB81CAA2A5400F0E672 /* package.json */; };
+		A085BED51CAA2A5400F0E672 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEB91CAA2A5400F0E672 /* README.md */; };
+		A085BED61CAA2A5400F0E672 /* replace.js in Resources */ = {isa = PBXBuildFile; fileRef = A085BEBA1CAA2A5400F0E672 /* replace.js */; };
+		A085BED71CAA2A5400F0E672 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A085BEBB1CAA2A5400F0E672 /* package.json */; };
+		A085BED81CAA2A5400F0E672 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEBC1CAA2A5400F0E672 /* README.md */; };
+		A085BED91CAA2A5400F0E672 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A085BEBD1CAA2A5400F0E672 /* package.json */; };
+		A085BEDA1CAA2A5400F0E672 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A085BEBE1CAA2A5400F0E672 /* README.md */; };
+		A085BEDB1CAA2A5400F0E672 /* RNCookieManagerIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = A085BEC11CAA2A5400F0E672 /* RNCookieManagerIOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,27 +132,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ReactNativeLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReactNativeLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeLoginTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativeLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A0AE4BBA1B90112D00F8106F /* RNCookieManagerIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCookieManagerIOS.h; sourceTree = "<group>"; };
-		A0AE4BBB1B90112D00F8106F /* RNCookieManagerIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCookieManagerIOS.m; sourceTree = "<group>"; };
+		A085BE8C1CAA2A3300F0E672 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A085BE8D1CAA2A3300F0E672 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A085BE8F1CAA2A3300F0E672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A085BE901CAA2A3300F0E672 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A085BE911CAA2A3300F0E672 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A085BE921CAA2A3300F0E672 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A085BE9A1CAA2A5300F0E672 /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
+		A085BE9D1CAA2A5300F0E672 /* AndroidManifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
+		A085BEA21CAA2A5300F0E672 /* CookieManagerModule.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CookieManagerModule.java; sourceTree = "<group>"; };
+		A085BEA31CAA2A5300F0E672 /* CookieManagerPackage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CookieManagerPackage.java; sourceTree = "<group>"; };
+		A085BEA41CAA2A5300F0E672 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		A085BEA51CAA2A5300F0E672 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		A085BEA81CAA2A5300F0E672 /* browser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = browser.js; sourceTree = "<group>"; };
+		A085BEA91CAA2A5300F0E672 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		A085BEAA1CAA2A5300F0E672 /* invariant.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = invariant.js; sourceTree = "<group>"; };
+		A085BEAD1CAA2A5300F0E672 /* .npmignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .npmignore; sourceTree = "<group>"; };
+		A085BEAE1CAA2A5300F0E672 /* custom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = custom.js; sourceTree = "<group>"; };
+		A085BEAF1CAA2A5400F0E672 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		A085BEB01CAA2A5400F0E672 /* loose-envify.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "loose-envify.js"; sourceTree = "<group>"; };
+		A085BEB31CAA2A5400F0E672 /* changelog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
+		A085BEB41CAA2A5400F0E672 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		A085BEB51CAA2A5400F0E672 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A085BEB61CAA2A5400F0E672 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A085BEB71CAA2A5400F0E672 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		A085BEB81CAA2A5400F0E672 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A085BEB91CAA2A5400F0E672 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A085BEBA1CAA2A5400F0E672 /* replace.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = replace.js; sourceTree = "<group>"; };
+		A085BEBB1CAA2A5400F0E672 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A085BEBC1CAA2A5400F0E672 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A085BEBD1CAA2A5400F0E672 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A085BEBE1CAA2A5400F0E672 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A085BEC01CAA2A5400F0E672 /* RNCookieManagerIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCookieManagerIOS.h; sourceTree = "<group>"; };
+		A085BEC11CAA2A5400F0E672 /* RNCookieManagerIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCookieManagerIOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +249,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		00E356EF1AD99517003FC87E /* ReactNativeLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ReactNativeLoginTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ReactNativeLoginTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,20 +280,6 @@
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		13B07FAE1A68108700A75B9A /* ReactNativeLogin */ = {
-			isa = PBXGroup;
-			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FB71A68108700A75B9A /* main.m */,
-			);
-			path = ReactNativeLogin;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -271,9 +326,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				A0AE4BB91B90112D00F8106F /* RNCookieManagerIOS */,
-				13B07FAE1A68108700A75B9A /* ReactNativeLogin */,
+				A085BE981CAA2A5300F0E672 /* react-native-cookies */,
+				A085BE8B1CAA2A3300F0E672 /* ReactNativeLogin */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ReactNativeLoginTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 			);
 			indentWidth = 2;
@@ -289,11 +345,161 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0AE4BB91B90112D00F8106F /* RNCookieManagerIOS */ = {
+		A085BE8B1CAA2A3300F0E672 /* ReactNativeLogin */ = {
 			isa = PBXGroup;
 			children = (
-				A0AE4BBA1B90112D00F8106F /* RNCookieManagerIOS.h */,
-				A0AE4BBB1B90112D00F8106F /* RNCookieManagerIOS.m */,
+				A085BE8C1CAA2A3300F0E672 /* AppDelegate.h */,
+				A085BE8D1CAA2A3300F0E672 /* AppDelegate.m */,
+				A085BE8E1CAA2A3300F0E672 /* LaunchScreen.xib */,
+				A085BE901CAA2A3300F0E672 /* Images.xcassets */,
+				A085BE911CAA2A3300F0E672 /* Info.plist */,
+				A085BE921CAA2A3300F0E672 /* main.m */,
+			);
+			path = ReactNativeLogin;
+			sourceTree = "<group>";
+		};
+		A085BE981CAA2A5300F0E672 /* react-native-cookies */ = {
+			isa = PBXGroup;
+			children = (
+				A085BE991CAA2A5300F0E672 /* android */,
+				A085BEA41CAA2A5300F0E672 /* index.js */,
+				A085BEA51CAA2A5300F0E672 /* LICENSE.md */,
+				A085BEA61CAA2A5300F0E672 /* node_modules */,
+				A085BEBD1CAA2A5400F0E672 /* package.json */,
+				A085BEBE1CAA2A5400F0E672 /* README.md */,
+				A085BEBF1CAA2A5400F0E672 /* RNCookieManagerIOS */,
+			);
+			path = "react-native-cookies";
+			sourceTree = "<group>";
+		};
+		A085BE991CAA2A5300F0E672 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				A085BE9A1CAA2A5300F0E672 /* build.gradle */,
+				A085BE9B1CAA2A5300F0E672 /* src */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		A085BE9B1CAA2A5300F0E672 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A085BE9C1CAA2A5300F0E672 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A085BE9C1CAA2A5300F0E672 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				A085BE9D1CAA2A5300F0E672 /* AndroidManifest.xml */,
+				A085BE9E1CAA2A5300F0E672 /* java */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		A085BE9E1CAA2A5300F0E672 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				A085BE9F1CAA2A5300F0E672 /* com */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		A085BE9F1CAA2A5300F0E672 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEA01CAA2A5300F0E672 /* psykar */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		A085BEA01CAA2A5300F0E672 /* psykar */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEA11CAA2A5300F0E672 /* cookiemanager */,
+			);
+			path = psykar;
+			sourceTree = "<group>";
+		};
+		A085BEA11CAA2A5300F0E672 /* cookiemanager */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEA21CAA2A5300F0E672 /* CookieManagerModule.java */,
+				A085BEA31CAA2A5300F0E672 /* CookieManagerPackage.java */,
+			);
+			path = cookiemanager;
+			sourceTree = "<group>";
+		};
+		A085BEA61CAA2A5300F0E672 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEA71CAA2A5300F0E672 /* invariant */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		A085BEA71CAA2A5300F0E672 /* invariant */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEA81CAA2A5300F0E672 /* browser.js */,
+				A085BEA91CAA2A5300F0E672 /* CHANGELOG.md */,
+				A085BEAA1CAA2A5300F0E672 /* invariant.js */,
+				A085BEAB1CAA2A5300F0E672 /* node_modules */,
+				A085BEBB1CAA2A5400F0E672 /* package.json */,
+				A085BEBC1CAA2A5400F0E672 /* README.md */,
+			);
+			path = invariant;
+			sourceTree = "<group>";
+		};
+		A085BEAB1CAA2A5300F0E672 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEAC1CAA2A5300F0E672 /* loose-envify */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		A085BEAC1CAA2A5300F0E672 /* loose-envify */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEAD1CAA2A5300F0E672 /* .npmignore */,
+				A085BEAE1CAA2A5300F0E672 /* custom.js */,
+				A085BEAF1CAA2A5400F0E672 /* index.js */,
+				A085BEB01CAA2A5400F0E672 /* loose-envify.js */,
+				A085BEB11CAA2A5400F0E672 /* node_modules */,
+				A085BEB81CAA2A5400F0E672 /* package.json */,
+				A085BEB91CAA2A5400F0E672 /* README.md */,
+				A085BEBA1CAA2A5400F0E672 /* replace.js */,
+			);
+			path = "loose-envify";
+			sourceTree = "<group>";
+		};
+		A085BEB11CAA2A5400F0E672 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEB21CAA2A5400F0E672 /* js-tokens */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		A085BEB21CAA2A5400F0E672 /* js-tokens */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEB31CAA2A5400F0E672 /* changelog.md */,
+				A085BEB41CAA2A5400F0E672 /* index.js */,
+				A085BEB51CAA2A5400F0E672 /* LICENSE */,
+				A085BEB61CAA2A5400F0E672 /* package.json */,
+				A085BEB71CAA2A5400F0E672 /* readme.md */,
+			);
+			path = "js-tokens";
+			sourceTree = "<group>";
+		};
+		A085BEBF1CAA2A5400F0E672 /* RNCookieManagerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A085BEC01CAA2A5400F0E672 /* RNCookieManagerIOS.h */,
+				A085BEC11CAA2A5400F0E672 /* RNCookieManagerIOS.m */,
 			);
 			path = RNCookieManagerIOS;
 			sourceTree = "<group>";
@@ -326,6 +532,7 @@
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
@@ -497,19 +704,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A085BED41CAA2A5400F0E672 /* package.json in Resources */,
+				A085BE951CAA2A3300F0E672 /* Images.xcassets in Resources */,
+				A085BED71CAA2A5400F0E672 /* package.json in Resources */,
+				A085BEC31CAA2A5400F0E672 /* AndroidManifest.xml in Resources */,
+				A085BED91CAA2A5400F0E672 /* package.json in Resources */,
+				A085BEC81CAA2A5400F0E672 /* browser.js in Resources */,
+				A085BECB1CAA2A5400F0E672 /* .npmignore in Resources */,
+				A085BECA1CAA2A5400F0E672 /* invariant.js in Resources */,
+				A085BECC1CAA2A5400F0E672 /* custom.js in Resources */,
+				A085BED61CAA2A5400F0E672 /* replace.js in Resources */,
+				A085BECE1CAA2A5400F0E672 /* loose-envify.js in Resources */,
+				A085BECD1CAA2A5400F0E672 /* index.js in Resources */,
+				A085BEC21CAA2A5400F0E672 /* build.gradle in Resources */,
+				A085BEC61CAA2A5400F0E672 /* index.js in Resources */,
+				A085BED11CAA2A5400F0E672 /* LICENSE in Resources */,
+				A085BE941CAA2A3300F0E672 /* LaunchScreen.xib in Resources */,
+				A085BE961CAA2A3300F0E672 /* Info.plist in Resources */,
+				A085BED01CAA2A5400F0E672 /* index.js in Resources */,
+				A085BED21CAA2A5400F0E672 /* package.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00E356EA1AD99517003FC87E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E356F31AD99517003FC87E /* ReactNativeLoginTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,9 +758,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				A0AE4BBC1B90112D00F8106F /* RNCookieManagerIOS.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				A085BEC71CAA2A5400F0E672 /* LICENSE.md in Sources */,
+				A085BEC91CAA2A5400F0E672 /* CHANGELOG.md in Sources */,
+				A085BED81CAA2A5400F0E672 /* README.md in Sources */,
+				A085BEC41CAA2A5400F0E672 /* CookieManagerModule.java in Sources */,
+				A085BE971CAA2A3300F0E672 /* main.m in Sources */,
+				A085BEC51CAA2A5400F0E672 /* CookieManagerPackage.java in Sources */,
+				A085BECF1CAA2A5400F0E672 /* changelog.md in Sources */,
+				A085BEDB1CAA2A5400F0E672 /* RNCookieManagerIOS.m in Sources */,
+				A085BED51CAA2A5400F0E672 /* README.md in Sources */,
+				A085BED31CAA2A5400F0E672 /* readme.md in Sources */,
+				A085BEDA1CAA2A5400F0E672 /* README.md in Sources */,
+				A085BE931CAA2A3300F0E672 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,10 +784,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		A085BE8E1CAA2A3300F0E672 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				A085BE8F1CAA2A3300F0E672 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -586,12 +836,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeLogin/Info.plist";
+				INFOPLIST_FILE = ReactNativeLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeLogin;
@@ -607,7 +858,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/ReactNativeLogin/Info.plist";
+				INFOPLIST_FILE = ReactNativeLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeLogin;
@@ -651,7 +902,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -691,7 +942,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
