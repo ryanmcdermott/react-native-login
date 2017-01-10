@@ -25,10 +25,10 @@ export default class ReactNativeLogin extends Component {
   }
 
   componentWillMount () {
-    CookieManager.get(HOME_URL, (cookie) => {
+    CookieManager.get(HOME_URL, (res, cookie) => {
       let isAuthenticated;
       // If it differs, change `cookie.remember_me` to whatever the name for your persistent cookie is!!!
-      if (cookie && cookie.indexOf('remember_me') != -1) {
+      if (cookie && cookie.hasOwnProperty('remember_me')) {
         isAuthenticated = true;
       }
       else {
